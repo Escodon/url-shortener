@@ -3,5 +3,6 @@ main = "src/worker.js"
 compatibility_date = "2023-10-12"
 
 d1_databases = [
+  { binding = "D1", name = "shortener", database_id = "e8e7ce09-d75f-4dad-91ec-050c66881bf3" },
   { binding = "DB", name = "url-shortener", database_id = "d219cc1f-e2da-4bd3-aa48-e0bb3cfc8cfb" }
 ]
